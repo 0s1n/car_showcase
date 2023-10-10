@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import CustomButton from "./CustomButton";
+import CustomButton from "./CustomButton1";
 
 const Hero = () => {
 	const handleSroll = () => {};
@@ -14,7 +14,8 @@ const Hero = () => {
 				</h1>
 
 				<p className='hero__subtitle'>
-					Streamline your car rental experience with our effortless booking process.
+					Streamline your car rental experience with our effortless booking
+					process.
 				</p>
 
 				<CustomButton

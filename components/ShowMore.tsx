@@ -1,7 +1,7 @@
 "use client";
 
 import { ShowMoreProps } from "@/types";
-import CustomButton from "./CustomButton";
+import CustomButton from "./CustomButton1";
 
 const ShowMore = ({ pageNumber, isNext, setLimit }: ShowMoreProps) => {
 	const handleNavigation = () => {
