@@ -13,7 +13,7 @@ export async function fetchCars(filters: FilterProps) {
 		},
 	};
 
-	console.log(process.env.RAPID_API_KEY);
+	// console.log(process.env.RAPID_API_KEY); // Removed: avoid logging sensitive data
 
 	try {
 		const response = await fetch(url, options);
